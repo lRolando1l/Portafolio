@@ -913,3 +913,314 @@ footer {
   padding: 20px;
   background: #020617;
 }
+
+/* TABLETS */
+@media (max-width: 1024px) {
+
+  .hero-container {
+    gap: 40px;
+    padding-top: 60px;
+  }
+
+  .hero-text h2 {
+    font-size: 2.2rem;
+  }
+
+  .hero-img img {
+    width: 320px;
+  }
+
+  .about-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .about-left,
+  .about-right {
+    width: 100%;
+  }
+
+  .about-tags {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects {
+    padding: 90px 30px;
+  }
+
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .exp-right {
+    text-align: left;
+  }
+
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* CELULARES */
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  section {
+    padding: 70px 20px;
+  }
+
+  /* NAVBAR */
+
+  .nav-container {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 20px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+
+  /* HERO */
+
+  .hero {
+    height: auto;
+    padding-top: 150px;
+    padding-bottom: 80px;
+  }
+
+  .hero-container {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-text h2 {
+    font-size: 2rem;
+    line-height: 120%;
+  }
+
+  .hero-text h3 {
+    font-size: 1.2rem;
+  }
+
+  .hero-text p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 170%;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero-img img {
+    width: 240px;
+  }
+
+  /* ABOUT */
+
+  .about {
+    padding: 70px 20px;
+  }
+
+  .about-left h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .about-intro {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .about-tags {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .about-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .about-img img {
+    width: 220px;
+  }
+
+  /* SKILLS */
+
+  .skills {
+    padding: 70px 20px;
+  }
+
+  .skills h2 {
+    font-size: 2rem;
+  }
+
+  .skills-subtitle {
+    font-size: 14px;
+    line-height: 160%;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-list {
+    grid-template-columns: 1fr;
+  }
+
+  /* EXPERIENCIA */
+
+  .projects {
+    padding: 70px 20px;
+  }
+
+  .projects-text h2 {
+    font-size: 2rem;
+  }
+
+  .projects-text p {
+    font-size: 15px;
+    line-height: 170%;
+  }
+
+  .experience-header {
+    padding: 15px;
+  }
+
+  .exp-left {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .exp-left h3 {
+    font-size: 16px;
+  }
+
+  .exp-role {
+    font-size: 13px;
+  }
+
+  .exp-body {
+    flex-direction: column;
+  }
+
+  .exp-description {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .exp-projects {
+    grid-template-columns: 1fr;
+  }
+
+  .exp-card img {
+    height: 180px;
+  }
+
+  .exp-company-img {
+    width: 100%;
+    max-width: 260px;
+  }
+
+  /* CONTACTO */
+
+  .contact {
+    padding: 70px 20px;
+  }
+
+  .contact-info h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .contact-info p {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .contact-form-box {
+    padding: 25px;
+  }
+
+  .contact-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .whatsapp-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .submit-btn {
+    width: 100%;
+  }
+
+  /* FOOTER */
+
+  footer p {
+    font-size: 14px;
+    line-height: 160%;
+  }
+}
+
+/* CELULARES PEQUEÑOS */
+@media (max-width: 480px) {
+
+  .hero-text h2 {
+    font-size: 1.7rem;
+  }
+
+  .hero-text h3 {
+    font-size: 1rem;
+  }
+
+  .hero-img img {
+    width: 200px;
+  }
+
+  .projects-text h2,
+  .skills h2,
+  .about-left h2,
+  .contact-info h2 {
+    font-size: 1.7rem;
+  }
+
+  .btn {
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+
+  .contact-form-box {
+    padding: 20px;
+  }
+
+  .input-group input,
+  .input-group textarea {
+    padding: 15px;
+  }
+}
