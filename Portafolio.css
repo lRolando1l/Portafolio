@@ -752,7 +752,7 @@ section {
 .contact-card {
 display: flex;
   align-items: center;
-  justify-content: Start;
+  justify-content: Center;
   text-align: center;
   gap: 15px;
   background: rgba(255,255,255,0.05);
