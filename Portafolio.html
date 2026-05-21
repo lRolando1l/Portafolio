@@ -269,6 +269,10 @@
             <img src="imagenes/Agencia Online JF.png" alt="Agencia Online JF">
             <h4>AGENCIA ONLINE JF</h4>
           </a>
+          <a href="https://conciliadorlaboral.com" target="_blank" class="exp-card">
+            <img src="imagenes/CARLOS CARRION.png" alt="Carlos Carrion">
+            <h4>Carlos Carrion</h4>
+          </a>
         </div>
       </div>
     </div>
@@ -374,14 +378,84 @@
 </section>
 
 <section id="contacto" class="contact">
-  <h2>Contáctame</h2>
 
-  <form onsubmit="return enviarFormulario()">
-    <input type="text" placeholder="Nombre" required>
-    <input type="email" placeholder="Correo" required>
-    <textarea placeholder="Mensaje" required></textarea>
-    <button type="submit">Enviar</button>
-  </form>
+  <div class="contact-container">
+
+    <div class="contact-info">
+      <h2>Contáctame</h2>
+
+      <p>
+        ¿Tienes un proyecto en mente, deseas una página web moderna o necesitas apoyo
+        en desarrollo frontend y análisis de datos? Escríbeme y conversemos.
+      </p>
+
+      <div class="contact-cards">
+
+        <div class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <h3>Correo</h3>
+            <span>edutrujillo94@gmail.com</span>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <i class="fas fa-location-dot"></i>
+          <div>
+            <h3>Ubicación</h3>
+            <span>Mala, Cañete - Lima</span>
+          </div>
+        </div>
+
+      </div>
+
+      <a 
+        href="https://wa.me/51907164679?text=Hola%20Rolando,%20quiero%20información%20sobre%20tus%20servicios"
+        target="_blank"
+        class="whatsapp-btn"
+      >
+        <i class="fab fa-whatsapp"></i>
+        Contactar por WhatsApp
+      </a>
+
+    </div>
+
+    <div class="contact-form-box">
+
+      <form 
+        action="https://formsubmit.co/edutrujillo94@gmail.com" 
+        method="POST"
+        class="contact-form"
+      >
+
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://tupagina.com/gracias.html">
+
+        <div class="input-group">
+          <input type="text" name="nombre" required>
+          <label>Nombre</label>
+        </div>
+
+        <div class="input-group">
+          <input type="email" name="correo" required>
+          <label>Correo electrónico</label>
+        </div>
+
+        <div class="input-group">
+          <textarea name="mensaje" rows="5" required></textarea>
+          <label>Mensaje</label>
+        </div>
+
+        <button type="submit" class="submit-btn">
+          <i class="fas fa-paper-plane"></i>
+          Enviar mensaje
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
 
 </section>
 
